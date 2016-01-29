@@ -426,49 +426,61 @@
                 <div class="col-sm-6 col-sm-offset-3">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" form action="https://docs.google.com/forms/d/1DCuj2wNRYa18wCHv5dax-zDVJtxxSm3xlTpV6RQZEgk/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
                         <!--<h3>Fill this up and let's get going!</h3>-->
                         <div class="row control-group wow slideInLeft">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <label>Name - ex. Nikola Tesla</label>
+                                
+                                <input type="text" name="entry.464180494" value="" class="form-control" id="entry_464180494" dir="auto" aria-label="Name  " aria-required="true" placeholder="Name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group wow slideInRight">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <label>Degree Program - ex. BS Computer Science</label>
+
+                                <input type="text" name="entry.841806762" value="" id="entry_841806762" dir="auto" aria-label="Degree Program  " aria-required="true" class="form-control" placeholder="Degree Program" required data-validation-required-message="Please enter your Degree Program.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group wow slideInLeft">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <label>Email Address - ex. nikolatesla@ieee.com</label>
+
+                                <input type="text" name="entry.464729979" value="" class="form-control" id="entry_464729979" dir="auto" aria-label="Email  " aria-required="true" required="" title=""placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group wow slideInRight">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Facebook Link</label>
-                                <input type="email" class="form-control" placeholder="Facebook Link" id="email" required data-validation-required-message="Please enter your email address.">
+                                <label>Facebook Link - ex. https://www.facebook.com/Nkltslwsm</label>
+                                <input type="text" name="entry.743347445" value="" id="entry_743347445" dir="auto" aria-label="Facebook Link  " title="" class="form-control" class="form-control" placeholder="Facebook Link" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="row control-group wow slideInLeft">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number - ex. 09232429322</label>
+                                <input type="text" name="entry.1337278377" value="" class="form-control" id="entry_1337278377" dir="auto" aria-label="Phone Number  " aria-required="true" required="" title="" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <br>
                         <h3>Anything you would like us to know? </h3>
-                        <div class="row control-group">
+                        <div class="row control-group wow slideInRight">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Tell us. Don't be shy</label>
-							<textarea class="form-control" id="c_message" name="c_message" rows="3" placeholder="Acads or Lovelife? You can tell us anything!"></textarea>
+							<textarea class="form-control" id="entry_1508229662" name="entry.1508229662" dir="auto" aria-label="Others  " rows="3" cols="0" placeholder="Problems in Acads or Lovelife? You can tell us anything!"></textarea>
 							</div>
 						</div>	
                         <br>
                         <div id="success"></div>
-                        <div class="row">
+                        <div class="row wow slideInRight">
                             <div class="form-group col-xs-12" >
-                                <button type="submit" class="btn btn-success btn-lg wow zoomIn">Submit</button>
+                            	
+                                <button type="submit" name="submit" value="Submit" id="ss-submit"  class="btn btn-success btn-lg wow zoomIn">Submit</button>
                             </div>
                         </div>
                     </form>
